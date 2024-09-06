@@ -33,6 +33,7 @@ function exibirImagens(tag) {
             centerMore.classList.add("centerMore");
             const link = document.createElement("a");
             link.href = imagem.link;
+            link.target = "_blank"
             link.textContent = "Mais";
             centerMore.appendChild(link);
 
